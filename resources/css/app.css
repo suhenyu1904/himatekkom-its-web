@@ -1,0 +1,66 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+/* Custom Styles */
+.prose {
+    max-width: 100%;
+}
+
+.prose h1, .prose h2, .prose h3, .prose h4 {
+    font-weight: 700;
+    color: #1f2937;
+    margin-top: 1.5em;
+    margin-bottom: 0.75em;
+}
+
+.prose h1 { font-size: 2em; }
+.prose h2 { font-size: 1.5em; }
+.prose h3 { font-size: 1.25em; }
+
+.prose p {
+    margin-bottom: 1em;
+    line-height: 1.75;
+    color: #4b5563;
+}
+
+.prose ul, .prose ol {
+    margin: 1em 0;
+    padding-left: 2em;
+}
+
+.prose li {
+    margin-bottom: 0.5em;
+    color: #4b5563;
+}
+
+.prose strong {
+    font-weight: 600;
+    color: #1f2937;
+}
+
+.prose a {
+    color: #2563eb;
+    text-decoration: underline;
+}
+
+.prose a:hover {
+    color: #1d4ed8;
+}
+
+/* Navbar hover animation */
+.group:hover .group-hover\:opacity-100 {
+    opacity: 1;
+}
+
+.group:hover .group-hover\:visible {
+    visibility: visible;
+}
