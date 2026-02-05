@@ -248,18 +248,11 @@ Pastikan code Anda mengikuti style guide (jalankan `pint` sebelum commit).
 
 ## 📄 License
 
-Proyek ini dilisensikan di bawah [MIT License](LICENSE).
+
 
 ## 👥 Tim Pengembang
 
-Dikembangkan dengan ❤️ oleh Tim IT Himatekkom
-
-## 📞 Kontak & Support
-
-Jika Anda memiliki pertanyaan atau menemukan bug, silakan:
-
-- Buat [Issue](https://github.com/your-username/himatekkom-web/issues) di GitHub
-- Hubungi tim IT Himatekkom
+Dikembangkan oleh Susilo Hendri Yudhoyono
 
 ## 🔗 Link Terkait
 
